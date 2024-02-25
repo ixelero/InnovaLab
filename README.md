@@ -9,7 +9,7 @@ Welcome to the Country Explorer application! This repository contains both the B
 
 ## Description
 
-This is a simple 'country explorer' application based on .NET 8 that displays a listing of country information. The application leverages a Country Explorer API to retrieve formatted country information from the third-party API [Restcountries](https://restcountries.com/).
+This is a simple **Country Explorer** application based on .NET 8 that displays a listing of country information. The application leverages a Country Explorer API to retrieve formatted country information from the third-party API [Restcountries](https://restcountries.com/).
 
 ## Back-End (BE) Application
 
