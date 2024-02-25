@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A036C64-755C-42B1-B69C-5F8687C131E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2F0F9D38-2469-46C9-BB24-FA611B156BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnovaLab.CountryExplorer.Application", "src\InnovaLab.CountryExplorer.Application\InnovaLab.CountryExplorer.Application.csproj", "{FB8094A2-5B6B-48C4-B2CC-5D31CC14E7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnovaLab.CountryExplorer.BusinessLogic", "src\InnovaLab.CountryExplorer.BusinessLogic\InnovaLab.CountryExplorer.BusinessLogic.csproj", "{1E76F7E1-8B75-4009-B273-B2E9CC985036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0002DC26-FD49-46CB-8AB8-0AAFEC95C334}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CodeMetricsConfig.txt = CodeMetricsConfig.txt
+		coverlet.runsettings = coverlet.runsettings
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+        nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnovaLab.CountryExplorer.UnitTests", "tests\InnovaLab.CountryExplorer.UnitTests\InnovaLab.CountryExplorer.UnitTests.csproj", "{B8586F7B-B851-47D3-BE7F-91115B24D2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnovaLab.CountryExplorer.Domain", "src\InnovaLab.CountryExplorer.Domain\InnovaLab.CountryExplorer.Domain.csproj", "{633D5FFC-7DC6-4E85-8065-DDABA42DA168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB8094A2-5B6B-48C4-B2CC-5D31CC14E7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8094A2-5B6B-48C4-B2CC-5D31CC14E7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8094A2-5B6B-48C4-B2CC-5D31CC14E7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8094A2-5B6B-48C4-B2CC-5D31CC14E7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E76F7E1-8B75-4009-B273-B2E9CC985036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E76F7E1-8B75-4009-B273-B2E9CC985036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E76F7E1-8B75-4009-B273-B2E9CC985036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E76F7E1-8B75-4009-B273-B2E9CC985036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8586F7B-B851-47D3-BE7F-91115B24D2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8586F7B-B851-47D3-BE7F-91115B24D2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8586F7B-B851-47D3-BE7F-91115B24D2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8586F7B-B851-47D3-BE7F-91115B24D2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633D5FFC-7DC6-4E85-8065-DDABA42DA168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633D5FFC-7DC6-4E85-8065-DDABA42DA168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633D5FFC-7DC6-4E85-8065-DDABA42DA168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633D5FFC-7DC6-4E85-8065-DDABA42DA168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB8094A2-5B6B-48C4-B2CC-5D31CC14E7E2} = {0A036C64-755C-42B1-B69C-5F8687C131E1}
+		{1E76F7E1-8B75-4009-B273-B2E9CC985036} = {0A036C64-755C-42B1-B69C-5F8687C131E1}
+        {633D5FFC-7DC6-4E85-8065-DDABA42DA168} = {0A036C64-755C-42B1-B69C-5F8687C131E1}
+		{B8586F7B-B851-47D3-BE7F-91115B24D2F9} = {2F0F9D38-2469-46C9-BB24-FA611B156BC9}
+	EndGlobalSection
+EndGlobal

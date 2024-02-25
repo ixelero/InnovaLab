@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" />
+    <PackageReference Include="Refit.HttpClientFactory" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InnovaLab.CountryExplorer.Domain\InnovaLab.CountryExplorer.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

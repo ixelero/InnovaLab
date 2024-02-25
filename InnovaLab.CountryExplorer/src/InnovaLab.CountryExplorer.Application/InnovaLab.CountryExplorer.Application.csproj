@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Serilog.Enrichers.Environment" />
+    <PackageReference Include="Serilog.Exceptions" />
+    <PackageReference Include="AspNetCore.HealthChecks.Uris" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InnovaLab.CountryExplorer.BusinessLogic\InnovaLab.CountryExplorer.BusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>

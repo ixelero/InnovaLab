@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <DataCollectionRunSettings>
+        <DataCollectors>
+            <DataCollector friendlyName="XPlat code coverage">
+                <Configuration>
+                    <Format>cobertura</Format>
+                    <Exclude>[*.Domain?]*</Exclude>
+                    <ExcludeByFile>**/DTOs/**/*.cs, **/Mapster/**/*.cs</ExcludeByFile>
+                    <SkipAutoProps>true</SkipAutoProps>
+                </Configuration>
+            </DataCollector>
+        </DataCollectors>
+    </DataCollectionRunSettings>
+
+    <LoggerRunSettings>
+        <Loggers>
+            <Logger friendlyName="trx" enabled="True" />
+        </Loggers>
+    </LoggerRunSettings>
+</RunSettings>
